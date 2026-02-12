@@ -107,7 +107,7 @@ export default function Home() {
             </p>
             <div className="space-y-3">
               {[
-                { text: '7 ventures across industries, 2 acqusitions' },
+                { text: '6 ventures across industries, 2 acqusitions' },
                 { text: "scaled to 1M+ users across products" },
                 { text: "developed data systems for the nba, verizon, etc" },
                 { text: "head of an ai medical research team as a uc berkeley freshman" },
@@ -137,10 +137,10 @@ export default function Home() {
             <div className="space-y-3">
               {[
                 { name: "amma", desc: "ai healthtech startup in stealth mode" },
-                { name: "cannon app", desc: "the future of computer vision" },
-                { name: "paperghost", desc: "linkedin ghostwriting agency for founders" },
-                { name: "modeling", desc: "im only going to be in my prime once" },
-                { name: "side projects", desc: "bringing my childhood dreams to life" },
+                // { name: "cannon app", desc: "the future of computer vision" },
+                // { name: "paperghost", desc: "linkedin ghostwriting agency for founders" },
+                // { name: "modeling", desc: "im only going to be in my prime once" },
+                // { name: "side projects", desc: "bringing my childhood dreams to life" },
               ].map((project, i) => (
                 <div
                   key={i}
